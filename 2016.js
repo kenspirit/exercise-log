@@ -61,38 +61,40 @@ module.exports = [
       {
         "day": "Tue",
         "exercises": [
-          {"name": "桥2", "times": "2x10"}
+          {"name": "桥2", "times": "2x"}
         ]
       },
       {
         "day": "Wed",
         "exercises": [
-          {"name": "俯1", "times": "2x20"},
-          {"name": "蹲1", "times": "2x20"}
+          {"name": "俯1", "times": "2x"},
+          {"name": "蹲1", "times": "2x"}
         ]
       },
       {
         "day": "Thu",
-        "exercises": []
+        "exercises": [
+          {"name": "桥2", "times": "2x"}
+        ]
       },
       {
         "day": "Fri",
         "exercises": [
-          {"name": "腿1", "times": "2x15"},
-          {"name": "引2", "times": "2x10"}
+          {"name": "腿1", "times": "2x"},
+          {"name": "引2", "times": "2x"}
         ]
       },
       {
         "day": "Sat",
         "exercises": [
-          {"name": "桥2", "times": "2x20"},
+          {"name": "桥2", "times": "2x"},
         ]
       },
       {
         "day": "Sun",
         "exercises": [
-          {"name": "腿1", "times": "2x15"},
-          {"name": "引2", "times": "2x10"}
+          {"name": "腿1", "times": "2x"},
+          {"name": "引2", "times": "2x"}
         ]
       }
     ]
