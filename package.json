@@ -1,0 +1,22 @@
+{
+  "name": "exercise-log",
+  "version": "1.0.0",
+  "description": "\"Exercise Log for Convit Conditioning\"",
+  "main": "generateMarkDownTable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenspirit/exercise-log.git"
+  },
+  "author": "Ken Chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenspirit/exercise-log/issues"
+  },
+  "homepage": "https://github.com/kenspirit/exercise-log#readme",
+  "dependencies": {
+    "markdown-it": "^7.0.0"
+  }
+}

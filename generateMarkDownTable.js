@@ -1,5 +1,6 @@
 var fs = require('fs')
-var data = require('./2016')
+var MarkdownIt = require('markdown-it')
+var data = require('./logs')
 
 var weekDays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 
@@ -40,7 +41,19 @@ data.forEach(function(perWeek) {
   outputMD.push(logs.join('\n'))
 })
 
-outputMD.push(`| xx-xx | 俯1: 2x | 桥2: 2x | 俯1: 2x | - | 腿1: 2x | 桥2: 2x | 腿1: 2x |
-| - | 蹲1: 2x | - | 蹲1: 2x | - | 引2: 2x | - | 引2: 2x |`)
+outputMD.push(`| 目标 | 俯1: 3x50 | 桥2: 3x50 | 俯1: 3x50 | 桥2: 3x | 腿1: 2x25 | 桥2: 3x50 | 腿1: 2x25 |
+| - | 蹲2: 3x40 | - | 蹲2: 3x40 | - | 引2: 2x20 | - | 引2: 2x20 |`)
+outputMD.push(`| YYYY-MM-DD | 俯1: 2x | 桥2: 3x | 俯1: 2x | 桥2: 3x | 腿1: 2x | 桥2: 3x | 腿1: 2x |
+| - | 蹲2: 3x | - | 蹲2: 3x | - | 引2: 2x | - | 引2: 2x |`)
 
-fs.writeFileSync('./2016.md', outputMD.join('\n'))
+var finalMD = outputMD.join('\n')
+
+fs.writeFileSync('./logs.md', finalMD)
+
+var md = new MarkdownIt()
+var html = md.render(finalMD)
+html = '<link href=./bootstrap.min.css rel=stylesheet><div style="margin-top: 20px"><div class="col-sm-1"></div><div class="col-sm-10">'
+  + html.replace('<table', '<table class="table table-bordered table-condensed"')
+  + '</div></div>'
+
+fs.writeFileSync('./logs.html', html)

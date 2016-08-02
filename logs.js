@@ -1,12 +1,12 @@
 module.exports = [
   {
-    "startDateOfWeek": "07-25",
+    "startDateOfWeek": "2016-07-25",
     "dates": [
       {
         "day": "Mon",
         "exercises": [
           {"name": "俯1", "times": "2x20"},
-          {"name": "蹲1", "times": "2x20"}
+          {"name": "蹲2", "times": "2x20"}
         ]
       },
       {
@@ -19,7 +19,7 @@ module.exports = [
         "day": "Wed",
         "exercises": [
           {"name": "俯1", "times": "2x20"},
-          {"name": "蹲1", "times": "2x20"}
+          {"name": "蹲2", "times": "2x20"}
         ]
       },
       {
@@ -49,26 +49,26 @@ module.exports = [
     ]
   },
   {
-    "startDateOfWeek": "08-01",
+    "startDateOfWeek": "2016-08-01",
     "dates": [
       {
         "day": "Mon",
         "exercises": [
           {"name": "俯1", "times": "2x50"},
-          {"name": "蹲1", "times": "20+30"}
+          {"name": "蹲2", "times": "20+30"}
         ]
       },
       {
         "day": "Tue",
         "exercises": [
-          {"name": "桥2", "times": "2x"}
+          {"name": "桥2", "times": "2x40"}
         ]
       },
       {
         "day": "Wed",
         "exercises": [
           {"name": "俯1", "times": "2x"},
-          {"name": "蹲1", "times": "2x"}
+          {"name": "蹲2", "times": "2x"}
         ]
       },
       {
