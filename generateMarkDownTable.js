@@ -41,11 +41,6 @@ data.forEach(function(perWeek) {
   outputMD.push(logs.join('\n'))
 })
 
-outputMD.push(`| 目标 | 俯1: 3x50 | 桥2: 3x50 | 俯1: 3x50 | 桥2: 3x | 腿1: 2x25 | 桥2: 3x50 | 腿1: 2x25 |
-| - | 蹲2: 3x40 | - | 蹲2: 3x40 | - | 引2: 2x20 | - | 引2: 2x20 |`)
-outputMD.push(`| YYYY-MM-DD | 俯1: 2x | 桥2: 3x | 俯1: 2x | 桥2: 3x | 腿1: 2x | 桥2: 3x | 腿1: 2x |
-| - | 蹲2: 3x | - | 蹲2: 3x | - | 引2: 2x | - | 引2: 2x |`)
-
 var finalMD = outputMD.join('\n')
 
 fs.writeFileSync('./logs.md', finalMD)
