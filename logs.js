@@ -105,8 +105,8 @@ module.exports = [
       {
         "day": "Mon",
         "exercises": [
-          {"name": "俯1", "times": "2x"}, // 3x50
-          {"name": "蹲2", "times": "3x"}  // 3x40
+          {"name": "俯1", "times": "3x50"}, // 3x50
+          {"name": "蹲2", "times": "3x40"}  // 3x40
         ]
       },
       {
@@ -156,7 +156,7 @@ module.exports = [
       {
         "day": "Mon",
         "exercises": [
-          {"name": "俯1", "times": "2x"}, // 3x50
+          {"name": "俯1", "times": "3x"}, // 3x50
           {"name": "蹲2", "times": "3x"}  // 3x40
         ]
       },
