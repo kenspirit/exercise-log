@@ -410,47 +410,104 @@ module.exports = [
       {
         "day": "Mon",
         "exercises": [
-          {"name": "俯2", "times": "3x"}, // 3x30
-          {"name": "蹲4", "times": "3x"}  // 3x40
+          {"name": "俯2", "times": "3x30"}, // 3x30
+          {"name": "蹲4", "times": "3x40"}  // 3x40
         ]
       },
       {
         "day": "Tue",
         "exercises": [
-          {"name": "桥2", "times": "3x"} // 3x20
+          {"name": "桥2", "times": "3x20"}, // 3x20
+          {"name": "平板", "times": "4"} // 5
         ]
       },
       {
         "day": "Wed",
         "exercises": [
-          {"name": "俯2", "times": "3x"}, // 3x30
-          {"name": "蹲4", "times": "3x"}  // 3x40
+          {"name": "俯2", "times": "3x30"}, // 3x30
+          {"name": "蹲4", "times": "3x40"}  // 3x40
         ]
       },
       {
         "day": "Thu",
         "exercises": [
-          {"name": "桥2", "times": "3x"} // 3x20
+          {"name": "拉力带", "times": "3x15"}, // 3x20
+          {"name": "平板", "times": "4"} // 5
         ]
       },
       {
         "day": "Fri",
         "exercises": [
-          {"name": "腿1", "times": "3x"}, // 3x30
-          {"name": "引2", "times": "3x"}  // 3x20
+          {"name": "腿1", "times": "2x30+25"}, // 3x30
+          {"name": "引2", "times": "18+15+12"}  // 3x20
         ]
       },
       {
         "day": "Sat",
         "exercises": [
-          {"name": "桥2", "times": "3x"}, // 3x20
+          {"name": "桥2", "times": "3x20"}, // 3x20
+          {"name": "平板", "times": "4"} // 5
         ]
       },
       {
         "day": "Sun",
         "exercises": [
-          {"name": "腿1", "times": "3x"}, // 3x30
-          {"name": "引2", "times": "3x"}  // 3x20
+          {"name": "腿1", "times": "3x25"}, // 3x30
+          {"name": "引2", "times": "3x15"}  // 3x20
+        ]
+      }
+    ]
+  },
+  {
+    "startDateOfWeek": "2016-09-26",
+    "dates": [
+      {
+        "day": "Mon",
+        "exercises": [
+          {"name": "俯2", "times": "3x35"}, // 3x40
+          {"name": "蹲4", "times": "3x45"}  // 3x50
+        ]
+      },
+      {
+        "day": "Tue",
+        "exercises": [
+          {"name": "桥2", "times": "3x20"}, // 3x20
+          {"name": "平板", "times": "3.5"} // 5
+        ]
+      },
+      {
+        "day": "Wed",
+        "exercises": [
+          {"name": "俯2", "times": "3x35"}, // 3x40
+          {"name": "蹲4", "times": "3x45"}  // 3x50
+        ]
+      },
+      {
+        "day": "Thu",
+        "exercises": [
+          {"name": "桥2", "times": "3x15"}, // 3x20
+          {"name": "平板", "times": "4"} // 5
+        ]
+      },
+      {
+        "day": "Fri",
+        "exercises": [
+          {"name": "腿1", "times": "3x30"}, // 3x30
+          {"name": "引4", "times": "3x5"}  // 3x20
+        ]
+      },
+      {
+        "day": "Sat",
+        "exercises": [
+          {"name": "桥2", "times": ""}, // 3x20
+          {"name": "平板", "times": ""} // 5
+        ]
+      },
+      {
+        "day": "Sun",
+        "exercises": [
+          {"name": "腿1", "times": ""}, // 3x30
+          {"name": "引2", "times": ""}  // 3x20
         ]
       }
     ]
@@ -468,7 +525,8 @@ module.exports = [
       {
         "day": "Tue",
         "exercises": [
-          {"name": "桥2", "times": "3x"} // 3x20
+          {"name": "桥2", "times": "3x"}, // 3x20
+          {"name": "平板", "times": "4"} // 5
         ]
       },
       {
@@ -481,7 +539,8 @@ module.exports = [
       {
         "day": "Thu",
         "exercises": [
-          {"name": "桥2", "times": "3x"} // 3x20
+          {"name": "桥2", "times": "3x"}, // 3x20
+          {"name": "平板", "times": "4"} // 5
         ]
       },
       {
@@ -495,6 +554,7 @@ module.exports = [
         "day": "Sat",
         "exercises": [
           {"name": "桥2", "times": "3x"}, // 3x20
+          {"name": "平板", "times": "4"} // 5
         ]
       },
       {
