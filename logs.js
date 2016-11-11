@@ -17,7 +17,7 @@ module.exports = [
       {
         "day": "Wed",
         "exercises": [
-          {"name": "腿2", "times": "3x"} // 3x35
+          {"name": "腿2", "times": ""} // 3x35
         ]
       },
       {
@@ -46,30 +46,30 @@ module.exports = [
     ]
   },
   {
-    "startDateOfWeek": "2016-10-31",
+    "startDateOfWeek": "2016-11-07",
     "dates": [
       {
         "day": "Mon",
         "exercises": [
-          {"name": "引2", "times": "3x"}  // 3x20
+          {"name": "跑步", "times": "4km 30'"}  // 3x20
         ]
       },
       {
         "day": "Tue",
         "exercises": [
-          {"name": "桥2", "times": "3x"} // 3x30
+          {"name": "健身房", "times": "身姿纠正，哑铃飞鸟，腹肌练习"} // 3x30
         ]
       },
       {
         "day": "Wed",
         "exercises": [
-          {"name": "腿2", "times": "3x"} // 3x35
+          {"name": "健身房", "times": "哑铃飞鸟，发力练习，腹肌练习"} // 3x35
         ]
       },
       {
         "day": "Thu",
         "exercises": [
-          {"name": "俯3", "times": "3x"} // 3x30
+          {"name": "跑步", "times": "5km 30'"} // 3x30
         ]
       },
       {
@@ -82,6 +82,52 @@ module.exports = [
         "day": "Sat",
         "exercises": [
           {"name": "平板", "times": "4"} // 5
+        ]
+      },
+      {
+        "day": "Sun",
+        "exercises": [
+        ]
+      }
+    ]
+  },
+  {
+    "startDateOfWeek": "2016-10-31",
+    "dates": [
+      {
+        "day": "Mon",
+        "exercises": [
+          {"name": "引2", "times": "16+12+10"}  // 3x20
+        ]
+      },
+      {
+        "day": "Tue",
+        "exercises": [
+          {"name": "桥3", "times": "1x4"} // 1x8
+        ]
+      },
+      {
+        "day": "Wed",
+        "exercises": [
+          {"name": "腿2", "times": "35+20+27"} // 3x35
+        ]
+      },
+      {
+        "day": "Thu",
+        "exercises": [
+          {"name": "俯3", "times": "30+30+15"} // 3x30
+        ]
+      },
+      {
+        "day": "Fri",
+        "exercises": [
+          {"name": "健身房", "times": "深蹲：15kgx10x3"}  // 2x30
+        ]
+      },
+      {
+        "day": "Sat",
+        "exercises": [
+          {"name": "跑步", "times": "5km"} // 5
         ]
       },
       {
