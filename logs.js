@@ -75,13 +75,13 @@ module.exports = [
       {
         "day": "Fri",
         "exercises": [
-          {"name": "蹲5", "times": "2x"}  // 2x30
+          {"name": "健身房", "times": "背部练习，飞鸟复习，腹肌练习"}  // 2x30
         ]
       },
       {
         "day": "Sat",
         "exercises": [
-          {"name": "平板", "times": "4"} // 5
+          {"name": "跑步", "times": "3km 20'"} // 3x30
         ]
       },
       {
