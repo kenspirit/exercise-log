@@ -46,6 +46,99 @@ module.exports = [
     ]
   },
   {
+    "startDateOfWeek": "2016-11-21",
+    "dates": [
+      {
+        "day": "Mon",
+        "exercises": [
+          {"name": "健身房", "times": "背部练习"}  // 3x20
+        ]
+      },
+      {
+        "day": "Tue",
+        "exercises": [
+          {"name": "健身房", "times": "肩部激活；硬拉，深蹲练习"} // 3x30
+        ]
+      },
+      {
+        "day": "Wed",
+        "exercises": [
+          {"name": "跑步", "times": "4km 30'"} // 3x35
+        ]
+      },
+      {
+        "day": "Thu",
+        "exercises": [
+          {"name": "健身房", "times": "胸部，背部强化练习"} // 3x30
+        ]
+      },
+      {
+        "day": "Fri",
+        "exercises": [
+          {"name": "", "times": ""}  // 2x30
+        ]
+      },
+      {
+        "day": "Sat",
+        "exercises": [
+          {"name": "跑步", "times": "4km 25'  腹部练习"} // 5
+        ]
+      },
+      {
+        "day": "Sun",
+        "exercises": [
+          {"name": "健身房", "times": "肩部，硬拉，深蹲练习"} // 3x30
+        ]
+      }
+    ]
+  },
+  {
+    "startDateOfWeek": "2016-11-14",
+    "dates": [
+      {
+        "day": "Mon",
+        "exercises": [
+          {"name": "健身房", "times": "深蹲 15kg 3x10 10kg 2x12"}  // 3x20
+        ]
+      },
+      {
+        "day": "Tue",
+        "exercises": [
+          {"name": "健身房", "times": "臀部，大腿激活练习"} // 3x30
+        ]
+      },
+      {
+        "day": "Wed",
+        "exercises": [
+          {"name": "健身房", "times": "哑铃飞鸟：7.5kg:3x15 推举：7.5kg:3x12 等"} // 3x35
+        ]
+      },
+      {
+        "day": "Thu",
+        "exercises": [
+          {"name": "健身房", "times": "划船： 引体向上姿势辅助练习"} // 3x30
+        ]
+      },
+      {
+        "day": "Fri",
+        "exercises": [
+          {"name": "健身房", "times": "臀部，大腿激活练习加强"}  // 2x30
+        ]
+      },
+      {
+        "day": "Sat",
+        "exercises": [
+          {"name": "跑步", "times": "4"} // 5
+        ]
+      },
+      {
+        "day": "Sun",
+        "exercises": [
+        ]
+      }
+    ]
+  },
+  {
     "startDateOfWeek": "2016-11-07",
     "dates": [
       {
