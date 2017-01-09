@@ -46,6 +46,99 @@ module.exports = [
     ]
   },
   {
+    "startDateOfWeek": "2016-01-09",
+    "dates": [
+      {
+        "day": "Mon",
+        "exercises": [
+          {"name": "休息", "times": ""} // 5
+        ]
+      },
+      {
+        "day": "Tue",
+        "exercises": [
+          {"name": "桥2", "times": "3x"} // 3x30
+        ]
+      },
+      {
+        "day": "Wed",
+        "exercises": [
+          {"name": "腿2", "times": ""} // 3x35
+        ]
+      },
+      {
+        "day": "Thu",
+        "exercises": [
+          {"name": "俯3", "times": "3x"} // 3x30
+        ]
+      },
+      {
+        "day": "Fri",
+        "exercises": [
+          {"name": "蹲5", "times": "2x"}  // 2x30
+        ]
+      },
+      {
+        "day": "Sat",
+        "exercises": [
+          {"name": "平板", "times": "4"} // 5
+        ]
+      },
+      {
+        "day": "Sun",
+        "exercises": [
+        ]
+      }
+    ]
+  },
+  {
+    "startDateOfWeek": "2017-01-02",
+    "dates": [
+      {
+        "day": "Mon",
+        "exercises": [
+          {"name": "休息", "times": "严重雾霾"} // 5
+        ]
+      },
+      {
+        "day": "Tue",
+        "exercises": [
+          {"name": "休息", "times": ""} // 5
+        ]
+      },
+      {
+        "day": "Wed",
+        "exercises": [
+          {"name": "休息", "times": ""} // 5
+        ]
+      },
+      {
+        "day": "Thu",
+        "exercises": [
+          {"name": "休息", "times": ""} // 5
+        ]
+      },
+      {
+        "day": "Fri",
+        "exercises": [
+          {"name": "休息", "times": ""} // 5
+        ]
+      },
+      {
+        "day": "Sat",
+        "exercises": [
+          {"name": "休息", "times": ""} // 5
+        ]
+      },
+      {
+        "day": "Sun",
+        "exercises": [
+          {"name": "健身房", "times": "胸，肱三头"} // 5
+        ]
+      }
+    ]
+  },
+  {
     "startDateOfWeek": "2016-12-26",
     "dates": [
       {
@@ -87,6 +180,7 @@ module.exports = [
       {
         "day": "Sun",
         "exercises": [
+          {"name": "休息", "times": ""} // 5
         ]
       }
     ]
